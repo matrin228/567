@@ -133,10 +133,19 @@ a {
     background-color: #ffa800;
     text-transform: uppercase;
     color: var(--text-color);
-}
-
-.header__btn {
+    transition: 0.3s ease;
+  }
+.header__button:hover {
+    background-color: #0089b6;
+    color: var(--text-color);
+  }
+  .header__btn {
     background-color: transparent;
     border: 2px solid #fff;
     margin-left: 20px;
-}
+    transition: 0.3s ease;
+  }
+.header__btn:hover {
+    background-color: var(--text-color);
+    color: #000000;
+  }
